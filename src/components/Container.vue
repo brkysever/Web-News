@@ -1,20 +1,15 @@
 <template>
-  <div class="news">
-      
-      
+  <div class="container">
+    <slot />
   </div>
 </template>
 
 <script>
-
 export default {
-name: 'News',
-components: {
- 
-}
+  name: 'Container'
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
