@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <nav class="navi">
-      <router-link  to="/">
+      <router-link   to="/">
         <IconNewsFill v-if="$route.name === 'NEWS'" />
         <IconNews v-else />
       </router-link>
@@ -9,7 +9,7 @@
         <IconReviewsFill v-if="$route.name === 'REVIEWS'" />
         <IconReviews v-else />
       </router-link>
-      <router-link to="/PHONES">
+      <router-link  to="/PHONES">
         <IconPhoneFill v-if="$route.name === 'PHONES'" />
         <IconPhone v-else />
       </router-link>
@@ -17,7 +17,6 @@
         <IconVideosFill v-if="$route.name === 'VIDEOS'" />
         <IconVideos v-else />
       </router-link>
-      <router-view />
     </nav>
   </header>
 </template>
@@ -48,6 +47,7 @@ export default {
 </script>
 
 <style>
+
 .navi {
   padding-left: 30px;
   z-index: 100;

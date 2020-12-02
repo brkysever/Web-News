@@ -1,20 +1,21 @@
 <template>
   <div id="app">
- <Container>
-<MasterHeader/>
-</Container>
+    <TopHeader />
+
+    <MasterHeader />
+    <router-view />
   </div>
 </template>
 
 <script>
 import MasterHeader from '@/components/Header.vue'
-import Container from '@/components/Container.vue'
+
+import TopHeader from '@/components/TopHeader.vue'
 export default {
-  name:'App',
+  name: 'App',
   components: {
     MasterHeader,
-    Container
-    
+    TopHeader
   }
 }
 </script>
