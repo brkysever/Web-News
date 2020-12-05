@@ -1,6 +1,6 @@
 <template>
   <div class="news">
-     
+     <h1 class="mainText">News</h1>
    <Post
    v-for="post of postData"
    :key="post.mediaID"
@@ -41,7 +41,12 @@ const RESPONSE = [
     postText: 'The Poco M3 is rumored to launch in Europe at around €150, will have a 48 MP camera.',
     postDate: '9 hours ago.',
     postImage:'https://i.imgur.com/uN8qi9K.jpg'
-  }
+  },
+  {
+    postText: 'Oppo is holding off on building rollable phones commercially.',
+    postDate: '3 hours ago.',
+    postImage:'https://i.imgur.com/CPHS34r.jpg'
+  },
 
 ]
 
@@ -64,7 +69,11 @@ data() {
 </script>
 
 <style>
-
+.mainText{
+  font-size: 17px;
+  color: rgb(235, 0, 0);
+  padding-left: 15px;
+}
 
 </style>
 

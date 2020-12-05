@@ -35,7 +35,6 @@ export default {
 
 <style>
 .post {
-  padding-top: 50px;
   display: flex;
   flex-direction:row;
 }
@@ -46,15 +45,18 @@ export default {
    height: 110px;
    border: 1px solid #000000;
    box-shadow: 1px 1px 5px grey;
+   margin-top: 20px;
 }
 
 .xx{
    margin-left: 20px;
    width: 150px;
+   
 }
 .date{
    color: grey;
    font-size: 10px;
 }
+
 
 </style>
