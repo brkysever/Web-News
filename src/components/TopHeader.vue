@@ -45,12 +45,11 @@ export default {
   background-color: #e62f2f;
   display: flex;
   justify-content: space-between;
+  width:100%;
 }
 
-.mac.opera .logo { width: 20%; }
-
 .logo {
-  -webkit-width: 20%;
+  width: 80px;
   margin-left: 45px;
 }
 
