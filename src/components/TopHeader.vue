@@ -47,8 +47,10 @@ export default {
   justify-content: space-between;
 }
 
+.mac.opera .logo { width: 20%; }
+
 .logo {
-  width: 20%;
+  -webkit-width: 20%;
   margin-left: 45px;
 }
 
