@@ -4,11 +4,12 @@
       <IconMenu />
     </div>
 
-    <div class="logo">
+    <div>
       <img
         src="https://i.ibb.co/gRZ3gXh/WebNews.png"
         alt="WebNews"
         border="0"
+        class="logo"
       />
     </div>
 
@@ -45,11 +46,10 @@ export default {
   background-color: #e62f2f;
   display: flex;
   justify-content: space-between;
-  width:100%;
 }
 
 .logo {
-  width: 80px;
+  height: 40px;
   margin-left: 45px;
 }
 
