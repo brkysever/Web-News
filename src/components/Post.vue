@@ -2,7 +2,9 @@
   <div class="post">
     
       <div class="posts">
+        <router-link to="/POSTS">
         <img class="news-img" :src="postImage">
+         </router-link>
         </div>
 
           <div class="xx">
@@ -10,7 +12,7 @@
                 <br>
             <a class="date"> {{ postDate }} </a>
           </div>
-        
+       
   </div>
 </template>
 

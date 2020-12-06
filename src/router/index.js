@@ -15,7 +15,6 @@ const routes = [{
         component: () =>
             import ( /* webpackChunkName: "profile" */ '../views/REVIEWS'),
     },
-
     {
         path: '/PHONES',
         name: 'PHONES',
@@ -27,6 +26,12 @@ const routes = [{
         name: 'VIDEOS',
         component: () =>
             import ( /* webpackChunkName: "profile" */ '../views/VIDEOS'),
+    },
+    {
+        path: '/POSTS',
+        name: 'POSTS',
+        component: () =>
+            import ( /* webpackChunkName: "profile" */ '../views/POSTS'),
     }
 ];
 
