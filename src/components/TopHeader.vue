@@ -48,7 +48,7 @@ export default {
 }
 
 .logo {
-  width: 80px;
+  width: 20%;
   margin-left: 45px;
 }
 

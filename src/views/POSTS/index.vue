@@ -13,7 +13,7 @@ Dimensity 1000+ found on Geekbench
 
 <p class="date">ALEX, 2 NOVEMBER 2019</p>
 
-<img class="postImage" src="https://i.imgur.com/8Xww2J0.jpg">
+<img class="postImage" src="https://i.imgur.com/uN8qi9K.jpg">
 
 <p class="postText">Lorem ipsum dolor sit amet, consetetur sadipscing
 elitr, sed diam nonumy eirmod tempor invidunt ut
@@ -76,9 +76,10 @@ margin-left: 9px;
 font-size: 20px;
 color: rgb(48, 48, 48);
 padding-bottom: 10px;
+padding-top: 15px;
 }
 .postImage{
-width: 338px;
+width: 95%;
 padding-bottom: 35px;
 padding-top: 15px;
 }
