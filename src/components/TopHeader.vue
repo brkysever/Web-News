@@ -46,6 +46,7 @@ export default {
   background-color: #e62f2f;
   display: flex;
   justify-content: space-between;
+  height: 40px;
 }
 
 .logo {
