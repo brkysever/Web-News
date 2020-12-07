@@ -1,7 +1,9 @@
 <template>
 <div class="newsPost">  
 <div>
+     <router-link   to="/comments">
     <button class="commentsButton">COMMENTS (6)</button>
+    </router-link> 
     <button class="yourCommentButton">POST YOUR COMMENT</button>
 </div>
 
