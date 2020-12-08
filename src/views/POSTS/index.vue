@@ -70,7 +70,7 @@ color:rgb(235, 235, 235);
 padding-left: 10px;
 padding-right: 10px;
 padding-bottom: 2px;
-padding-top: 2;
+padding-top: 2px;
 border-radius: 7px;
 margin-left: 9px;
 }

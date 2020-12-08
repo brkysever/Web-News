@@ -108,7 +108,7 @@ export default {
   font-size: 14px;
 }
 .secondBox {
-    padding-top: 50px;
+    padding-top: 35px;
     border: 2px solid  #b3b3b3;
     box-shadow: 1px 1px 5px grey;
 }
@@ -118,9 +118,9 @@ export default {
     padding-bottom: 20px;
 }
 .userTextBox{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(231, 231, 231);
     padding-left: 30px;
-    width: 370px;
+    width: 350px;
     height: 30px;
     padding-top: 5px;
 }
