@@ -39,7 +39,13 @@ const routes = [{
         component: () =>
             import ( /* webpackChunkName: "profile" */ '../views/POSTS/comments'),
 
-    }
+    },
+    {
+        path: '/REVIEWPOSTS',
+        name: 'REVIEWPOSTS',
+        component: () =>
+            import ( /* webpackChunkName: "profile" */ '../views/REVIEWS/REVIEWPOSTS'),
+    },
 ];
 
 const router = new VueRouter({

@@ -1,9 +1,11 @@
 <template>
   <div class="reviews">
     <div class="reviewsbox">
+      <router-link to="/REVIEWPOSTS">
       <img class="reviewsImg" src="https://i.imgur.com/2QqIpVo.jpg" alt="" />
       <p class="reviewText">Oppo Reno4 Pro 5G review</p>
       <p class="dateR">19 Nov 2020</p>
+      </router-link>
     </div>
     <div class="reviewsbox">
       <img class="reviewsImg" src="https://i.imgur.com/OVhmS7j.jpg" alt="" />
